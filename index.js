@@ -62,4 +62,3 @@ var firstNameAmara = nameSplitted2[0]
 console.log(firstNameAmara[0]);
 console.log(nameSplitted2[1]);
 console.log(firstNameAmara[0]+". " + nameSplitted2[1])
-//console.log.(nameSplitted2[0].0)
