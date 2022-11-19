@@ -1,3 +1,4 @@
+// My variables to manipulate
 const kifle = "Kifle Wodajo";
 const diallo = 'Diallo Telli';
 const nzo = `Nzo Ekangaki`;
@@ -35,13 +36,30 @@ var namePeterSplitted = peter.split(' ').slice(-2);
 var firstName = namePeterSplitted[0];
 console.log(firstName.repeat(3));
 
-/*For the 7th person, replace the single “m” in their surname with “mm” and print out the result: “Oummarou”.
-For the 8th person:
+/*For the 7th person, replace the single “m” in their surname with “mm” and print out the result: “Oummarou”.*/
+var ideChange = ide.replace("m","mm");
+var nameSplittedIde = ideChange.split(' ').slice(-2);
+var lastName = nameSplittedIde[1];
+console.log(lastName);
+
+/* For the 8th person:
 Create a variable with the string “1989-2001” in it.
 Use string interpolation with two variables to create the sentence “The 8th secretary-general of the OAU: Salim Ahmed Salim, who held this position from 1989-2001.”
-Remember the period character at the end.
-For the 9th person: 
+Remember the period character at the end.*/
+var datesVarious = "1989-2001";
+var sentence ="The 8th secretary-general of the OAU: Salim Ahmed Salim, who held this position from ";
+var sumStringsAll = sentence + datesVarious + ".";
+console.log(sumStringsAll);
+
+/*For the 9th person: 
 Use index access to get the first letter of the first name.
 Use slice to get the last name. See if you can do this by finding the space in the name.
 Use concatenation to construct the string “A. Essy”.
 Don’t forget the period after the “A”.*/
+
+var nameSplitted2 = amara.split(' ').slice(-2);
+var firstNameAmara = nameSplitted2[0]
+console.log(firstNameAmara[0]);
+console.log(nameSplitted2[1]);
+console.log(firstNameAmara[0]+". " + nameSplitted2[1])
+//console.log.(nameSplitted2[0].0)
